@@ -1,0 +1,11 @@
+# 20230621_CCLE_correlation_between_residual_and_RBPDB_RBP_RPKM
+
+# 解析の目的
+まず、CCLEの転写産物・miRNAの発現データを用いた単回帰解析でmiRNA生合成効率を求める。その後CCLEの遺伝子発現データとmiRNA生合成効率の相関関係を求めることで、miRNAプロセシングを調節するRNA結合タンパク質(RBP)の候補を網羅的に探索する。
+
+# ファイルの説明
+・20230621_draw_plot_about_CCLE_correlation_between_residual_and_RBPDB_RBP_RPKM.R
+<br>miRNA生合成効率とRBPの発現量の相関関係を求め、プロットを描くスクリプト。スクリプトを動かすにあたって必要なファイルはスクリプト中に記載。またその場所もスクリプト中に記載。
+
+.summary_of_correlation_between_residual_and_RBPDB_RBP_RPKM.txt
+<br>miRNA生合成効率とRBPの発現量の相関解析の結果。287個のmiRNA生合成効率と410のRBPの発現量の相関関係が要約されている。
